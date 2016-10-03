@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TaskRunner/taskqueue"
+	"github.com/jackgardner/go-task-runner/taskqueue"
 	"flag"
 	"github.com/golang/glog"
 	"path/filepath"
