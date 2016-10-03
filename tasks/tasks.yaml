@@ -1,0 +1,9 @@
+tasks:
+  - name: "consolePrint"
+    interval: "4s"
+    requeue: true
+    from: "now"
+  - name: "longRunner"
+    interval: "1m"
+    requeue: true
+    from: "now"
